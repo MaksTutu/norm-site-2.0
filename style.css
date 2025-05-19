@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: "Monospaced", sans-serif;
+}
+form {
+    justify-content: center;
+    display: flex;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #333333;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 15px;
+    row-gap: 15px;
+}
+
+.login h2{
+    font-size: 35px;
+    color: #fff;
+}
+.login  input:required{
+    width: 100%;
+    padding: 15px 35px;
+    background: #444444;
+    color: #bfbfbf;
+    border-radius: 7px;
+}
+
+.email > img, .lock > img {
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.email, .lock{
+    position: relative;
+}
+
+.button{
+    background: #fd4648;
+    border-radius: 40px;
+    padding: 10px 65px;
+    color: #fff;
+}
+.button:hover{
+    background: #970000;
+}
+.login > a{
+    font-size: 12px;
+    color: #bfbfbf;
+    text-decoration: none;
+}
+.bac {
+    margin: 50px;
+    background: #222222;
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.names {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+}
+
+.names  input:required{
+    width: 112px;
+}
+
+
+
+
+
+
+
+
+
+
+
